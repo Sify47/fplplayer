@@ -53,4 +53,4 @@ def main(page):
 
     page.add(txt_name, ft.ElevatedButton("Show Team", on_click=btn_click))
 
-ft.app(target=main)
+ft.app(target=main , view=ft.AppView.WEB_BROWSER)
